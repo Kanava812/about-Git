@@ -33,3 +33,21 @@ cat file.txt (от англ. concatenate and print, «объединить и р
 rm about.html (от англ. remove, «удалить») — удали файл about.html;   
 rmdir images (от англ. remove directory, «удалить директорию») — удали папку images;   
 rm -r second-project (от англ. remove, «удалить» + recursive, «рекурсивный») — удали папку second-project и всё, что она содержит.   
+# HEAD
+HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов:
+<тут пустая строка!>
+
+```mermaid
+%% описание схемы
+```
+<и тут пустая строка!> 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
